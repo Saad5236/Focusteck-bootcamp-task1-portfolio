@@ -367,10 +367,6 @@ body > section {
     max-width: 2200px;
   }
 
-  .all-projects * {
-    border: 1px solid black;
-  }
-
   .all-projects .project {
     grid-template-columns: 1fr 1.7fr;
     /* we'd have to use align-items since otherwise all our grid items which include project img and text would grow out indefinitely (in full size of img) and starts to overflow out of .projects-inner element since we haven't fixed .project element's width yet */
